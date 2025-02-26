@@ -15,3 +15,7 @@ Console.WriteLine("Digite a operação desejada: 1=> soma 2=> subtração 3=> mu
 int operacao = Convert.ToInt32(Console.ReadLine());
 
 
+if (operacao == 3){Console.WriteLine($"O resutlado da operação é {primeiroNumero * segundoNumero}");}
+if (operacao == 4){Console.WriteLine($"O resutlado da operação é {primeiroNumero / segundoNumero}");}
+
+
